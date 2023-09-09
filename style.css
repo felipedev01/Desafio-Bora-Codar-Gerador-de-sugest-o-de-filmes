@@ -20,6 +20,8 @@ body {
 }
 button {
     font-family: 'Outfit', sans-serif;
+    color: #FFFFFF;
+    border: none;
 }
 .card {
 
@@ -32,6 +34,7 @@ button {
 .movies {
     display: flex;
     gap: 2.25rem;
+    margin-top: 2.25rem;
     
 }.container {
     padding: 4rem 6rem;
@@ -44,7 +47,29 @@ header {
     flex-direction: row;
     justify-content: space-between;
 
-}.title {
+}
+header button {
+
+    background: var(--gradientes-gradiente-normal, linear-gradient(91deg, #8323FF 0.99%, #FF2DAF 102.1%));
+    width: 13.75rem;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    gap: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header span {
+
+    font-size: .9375rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.25rem;
+    font-weight: 400;
+    width: 9.25rem;
+}
+
+.title {
     display: flex;
     justify-content: space-between;
 }
