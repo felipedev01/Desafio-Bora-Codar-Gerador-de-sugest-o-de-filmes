@@ -24,12 +24,18 @@ button {
     border: none;
 }
 .card {
-
+    max-width: 52.875rem;
     background-color: #1E1F28;
-    width: 100%;
-    max-width: 846px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.25rem;
+    border: 8px solid var(--gradientes-gradiente-logo, #9747FF);
+    box-sizing: content-box;
+    background: var(--cores-cinza-dark, #1E1F28);
+    box-shadow: 0px -3px 22px 0px rgba(0, 0, 0, 0.35);
     border-radius: 1rem;
-    border: 8px solid var(--gradientes-gradiente-logo, #9747FF)
 }
 .movies {
     display: flex;
@@ -65,17 +71,47 @@ header span {
     font-weight: 400;
     font-style: normal;
     line-height: 1.25rem;
-    font-weight: 400;
+    font-weight:100;
     width: 9.25rem;
+    
 }
 
 .title {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height:2.5rem;
+    margin-bottom: .75rem;
+
+}
+.title span {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 100%;
+    font-style: normal;
+    max-width: 8.75rem;
+    text-overflow: ellipsis;
+    word-spacing: -0.0625rem;
+   
 }
 .nota {
     display: flex;
+    color: var(--cores-amarelo, #FEEA35);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 14.408px;
+    font-family: Outfit;
+    gap:.27rem;
 }
 .nota img {
     overflow: hidden;
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: #8B8D9B;
 }
